@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BadType" xml:space="preserve">
+    <value>數字超出範圍。請檢查寶石類型以及屬性是否有誤。</value>
+  </data>
+  <data name="NotLevel1" xml:space="preserve">
+    <value>本軟體只能夠計算等級一的寶石。</value>
+  </data>
+  <data name="Score1" xml:space="preserve">
+    <value>請拍照遊戲內的寶石並傳送給willy_sunny@invisiblearea.com做紀錄</value>
+  </data>
+  <data name="Score100" xml:space="preserve">
+    <value>請拍照遊戲內的寶石並傳送給willy_sunny@invisiblearea.com做紀錄</value>
+  </data>
+  <data name="Score35" xml:space="preserve">
+    <value>垃圾都比這個好。拆了吧</value>
+  </data>
+  <data name="Score45" xml:space="preserve">
+    <value>這顆寶石不建議升上去。</value>
+  </data>
+  <data name="Score55" xml:space="preserve">
+    <value>不是很糟，但也不是很好。</value>
+  </data>
+  <data name="Score75" xml:space="preserve">
+    <value>一顆還算OK的寶石。</value>
+  </data>
+  <data name="Score86" xml:space="preserve">
+    <value>真不錯，這是顆高品質的寶石。</value>
+  </data>
+  <data name="Score95" xml:space="preserve">
+    <value>哇! 這個寶石的數值實在是太贊了!</value>
+  </data>
+  <data name="calculate" xml:space="preserve">
+    <value>開始計算</value>
+  </data>
+  <data name="CD" xml:space="preserve">
+    <value>爆擊傷害</value>
+  </data>
+  <data name="CH" xml:space="preserve">
+    <value>爆擊機率</value>
+  </data>
+  <data name="getInfo1" xml:space="preserve">
+    <value>目前寶石資訊</value>
+  </data>
+  <data name="getInfo2" xml:space="preserve">
+    <value>PR值</value>
+  </data>
+  <data name="getInfo3" xml:space="preserve">
+    <value>等級</value>
+  </data>
+  <data name="HR" xml:space="preserve">
+    <value>回血</value>
+  </data>
+  <data name="individual" xml:space="preserve">
+    <value>個別評分</value>
+  </data>
+  <data name="initInfo1" xml:space="preserve">
+    <value>寶石初始數值</value>
+  </data>
+  <data name="initInfo2" xml:space="preserve">
+    <value>寶石類型</value>
+  </data>
+  <data name="initInfo3" xml:space="preserve">
+    <value>起始屬性數</value>
+  </data>
+  <data name="inputInfo1" xml:space="preserve">
+    <value>請輸入等級一寶石資訊</value>
+  </data>
+  <data name="inputInfo2" xml:space="preserve">
+    <value>屬性數值</value>
+  </data>
+  <data name="inputInfo3" xml:space="preserve">
+    <value>屬性名稱</value>
+  </data>
+  <data name="MD" xml:space="preserve">
+    <value>魔法傷害</value>
+  </data>
+  <data name="MH" xml:space="preserve">
+    <value>最大血量</value>
+  </data>
+  <data name="PD" xml:space="preserve">
+    <value>物理傷害</value>
+  </data>
+  <data name="PMH" xml:space="preserve">
+    <value>% 最大血量</value>
+  </data>
+  <data name="radiant" xml:space="preserve">
+    <value>光輝</value>
+  </data>
+  <data name="restart" xml:space="preserve">
+    <value>重新開始</value>
+  </data>
+  <data name="result" xml:space="preserve">
+    <value>結果</value>
+  </data>
+  <data name="score" xml:space="preserve">
+    <value>分數</value>
+  </data>
+  <data name="stellar" xml:space="preserve">
+    <value>恆星</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>總分</value>
+  </data>
+  <data name="AboutMenu" xml:space="preserve">
+    <value>關於 (&amp;A)</value>
+  </data>
+  <data name="AlwaysOnTop" xml:space="preserve">
+    <value>保持在最上端 (&amp;T)</value>
+  </data>
+  <data name="bold" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>英文 (&amp;E)</value>
+  </data>
+  <data name="fontFace" xml:space="preserve">
+    <value>微軟正黑體</value>
+  </data>
+  <data name="formHeight" xml:space="preserve">
+    <value>497</value>
+  </data>
+  <data name="formName" xml:space="preserve">
+    <value>Trove 寶石評估器</value>
+  </data>
+  <data name="formWidth" xml:space="preserve">
+    <value>690</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>語言 (&amp;L)</value>
+  </data>
+  <data name="menuExit" xml:space="preserve">
+    <value>離開 (&amp;X)</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>設定 (&amp;S)</value>
+  </data>
+  <data name="SimplifiedChinese" xml:space="preserve">
+    <value>簡體中文 (&amp;S)</value>
+  </data>
+  <data name="TraditionalChinese" xml:space="preserve">
+    <value>繁體中文 (&amp;T)</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TroveSig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TroveSigCht.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bugText" xml:space="preserve">
+    <value>找到Bug?</value>
+  </data>
+  <data name="EGI" xml:space="preserve">
+    <value>大寶石初始查詢</value>
+    <comment>Empowered Gem Information</comment>
+  </data>
+  <data name="invalidInput" xml:space="preserve">
+    <value>嘗試轉換您的輸入時出了問題。請檢查輸入後再嘗試。</value>
+  </data>
+  <data name="invalidLevelInput" xml:space="preserve">
+    <value>您輸入了一個無效的等級。請重新輸入等級。</value>
+  </data>
+  <data name="invalidPRInput" xml:space="preserve">
+    <value>您輸入了一個無效的PR值。請重新輸入PR值。</value>
+  </data>
+  <data name="notLevel1Short" xml:space="preserve">
+    <value>寶石不是等級一</value>
+  </data>
+  <data name="outOfBoundShort" xml:space="preserve">
+    <value>輸入數值錯誤</value>
+  </data>
+  <data name="reportText" xml:space="preserve">
+    <value>點此回報!</value>
+  </data>
+  <data name="reportURL" xml:space="preserve">
+    <value>http://forum.gamer.com.tw/C.php?bsn=26719&amp;snA=9155&amp;tnum=5</value>
+  </data>
+  <data name="SGE" xml:space="preserve">
+    <value>小寶石評估器</value>
+    <comment>Small Gem Evaluator</comment>
+  </data>
+  <data name="titleError" xml:space="preserve">
+    <value>錯誤發生</value>
+  </data>
+  <data name="unknown" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>關於</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>你可以點下列圖示與作者聯絡</value>
+  </data>
+  <data name="forumLink" xml:space="preserve">
+    <value>http://home.gamer.com.tw/homeindex.php?owner=willysunny</value>
+  </data>
+  <data name="forumIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\baha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

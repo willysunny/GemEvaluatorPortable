@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BadType" xml:space="preserve">
+    <value>Out of bound value. Double check if the gem type/stat is correct.</value>
+  </data>
+  <data name="NotLevel1" xml:space="preserve">
+    <value>Evaluator can only calculate level 1 gems.</value>
+  </data>
+  <data name="Score1" xml:space="preserve">
+    <value>Holy crap! Please send a screen shot to willy_sunny@invisiblearea.com.</value>
+  </data>
+  <data name="Score100" xml:space="preserve">
+    <value>Holy crap! Please send a screen shot to willy_sunny@invisiblearea.com.</value>
+  </data>
+  <data name="Score35" xml:space="preserve">
+    <value>Junkier than junk. Salvage it.</value>
+  </data>
+  <data name="Score45" xml:space="preserve">
+    <value>Meh, not really worth the cost to level it up.</value>
+  </data>
+  <data name="Score55" xml:space="preserve">
+    <value>Not too bad, but not too good either.</value>
+  </data>
+  <data name="Score75" xml:space="preserve">
+    <value>Not a bad gem to hang around.</value>
+  </data>
+  <data name="Score86" xml:space="preserve">
+    <value>Class A gem! Great find!</value>
+  </data>
+  <data name="Score95" xml:space="preserve">
+    <value>Wow, a class S gem! Congrats!</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TroveSig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TroveSigEng.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AboutMenu" xml:space="preserve">
+    <value>About (&amp;A)</value>
+  </data>
+  <data name="AlwaysOnTop" xml:space="preserve">
+    <value>Always on Top (&amp;T)</value>
+  </data>
+  <data name="bold" xml:space="preserve">
+    <value>false</value>
+  </data>
+  <data name="calculate" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="CD" xml:space="preserve">
+    <value>Critical Damage</value>
+  </data>
+  <data name="CH" xml:space="preserve">
+    <value>Critical Hit</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>English (&amp;E)</value>
+  </data>
+  <data name="fontFace" xml:space="preserve">
+    <value>Arial</value>
+  </data>
+  <data name="formHeight" xml:space="preserve">
+    <value>460</value>
+  </data>
+  <data name="formName" xml:space="preserve">
+    <value>Trove Gem Evaulator Portable</value>
+  </data>
+  <data name="formWidth" xml:space="preserve">
+    <value>690</value>
+  </data>
+  <data name="getInfo1" xml:space="preserve">
+    <value>Current Gem Info</value>
+  </data>
+  <data name="getInfo2" xml:space="preserve">
+    <value>Power Rank</value>
+  </data>
+  <data name="getInfo3" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="HR" xml:space="preserve">
+    <value>Health Regeneration</value>
+  </data>
+  <data name="individual" xml:space="preserve">
+    <value>Individual Stat</value>
+  </data>
+  <data name="initInfo1" xml:space="preserve">
+    <value>Gem's Initial Info</value>
+  </data>
+  <data name="initInfo2" xml:space="preserve">
+    <value>Gem Type</value>
+  </data>
+  <data name="initInfo3" xml:space="preserve">
+    <value>Initial Stat Count</value>
+  </data>
+  <data name="inputInfo1" xml:space="preserve">
+    <value>Please enter level 1 gem's stats</value>
+  </data>
+  <data name="inputInfo2" xml:space="preserve">
+    <value>Stat Value</value>
+  </data>
+  <data name="inputInfo3" xml:space="preserve">
+    <value>Stat Name</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language (&amp;L)</value>
+  </data>
+  <data name="MD" xml:space="preserve">
+    <value>Magic Damage</value>
+  </data>
+  <data name="menuExit" xml:space="preserve">
+    <value>Exit (&amp;X)</value>
+  </data>
+  <data name="MH" xml:space="preserve">
+    <value>Max Health</value>
+  </data>
+  <data name="PD" xml:space="preserve">
+    <value>Physical Damage</value>
+  </data>
+  <data name="PMH" xml:space="preserve">
+    <value>% Max Health</value>
+  </data>
+  <data name="radiant" xml:space="preserve">
+    <value>Radiant</value>
+  </data>
+  <data name="restart" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="result" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="score" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings (&amp;S)</value>
+  </data>
+  <data name="SimplifiedChinese" xml:space="preserve">
+    <value>Simplified Chinese (&amp;S)</value>
+  </data>
+  <data name="stellar" xml:space="preserve">
+    <value>Stellar</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="TraditionalChinese" xml:space="preserve">
+    <value>Traditional Chinese (&amp;T)</value>
+  </data>
+  <data name="bugText" xml:space="preserve">
+    <value>Got Bugs?</value>
+  </data>
+  <data name="EGI" xml:space="preserve">
+    <value>Empowered Gem Initial Stat</value>
+    <comment>Empowered Gem Information</comment>
+  </data>
+  <data name="invalidInput" xml:space="preserve">
+    <value>There's an error trying to convert your input. Please double check the values</value>
+  </data>
+  <data name="invalidLevelInput" xml:space="preserve">
+    <value>Invalid level entered. Please re-enter again.</value>
+  </data>
+  <data name="invalidPRInput" xml:space="preserve">
+    <value>Invalid power rank entered. Please re-enter again.</value>
+  </data>
+  <data name="notLevel1Short" xml:space="preserve">
+    <value>Not Level 1</value>
+  </data>
+  <data name="outOfBoundShort" xml:space="preserve">
+    <value>Out of Bound</value>
+  </data>
+  <data name="reportText" xml:space="preserve">
+    <value>Report Here!</value>
+  </data>
+  <data name="reportURL" xml:space="preserve">
+    <value>http://forums.trovegame.com/showthread.php?98537-Stop-Leveling-up-the-wrong-Gem.-Use-the-Evaulator-and-show-off-your-Gem!</value>
+  </data>
+  <data name="SGE" xml:space="preserve">
+    <value>Small Gem Evaluator</value>
+    <comment>Small Gem Evaluator</comment>
+  </data>
+  <data name="titleError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Click on the icons below to go to author's page</value>
+  </data>
+  <data name="forumIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\forum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="forumLink" xml:space="preserve">
+    <value>http://forums.trovegame.com/member.php?16006413-Willy_Sunny</value>
+  </data>
+</root>
